@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 import Nav from "../components/Nav";
 import MobileNav from "../components/MobileNav";
-
+import Home from "../components/Home";
 const Homepage = () => {
 
   const [nav,setNav] =  useState(false);
@@ -13,6 +13,7 @@ const Homepage = () => {
       <div>
         <MobileNav nav={nav} closeNav={closeNav} /> 
         <Nav openNav={openNav} />
+        <Home />
       </div>
     
   </div>
