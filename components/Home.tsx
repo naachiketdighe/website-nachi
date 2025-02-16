@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 const Home = () => {
     return (
         <div className="h-[88vh] .bg-[url('/images/Background.png')] bg-cover bg-center"> <Particle />
-        <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
+        <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center mt-[10vh]">
             <div>
             <h1 className="text-[40px] md:text-[40px] text-white font-bold"> HI, I'M <span className="text-orange-300">NACHI AND MY INTERESTS INCLUDE:</span></h1>
             <TextEffect />
